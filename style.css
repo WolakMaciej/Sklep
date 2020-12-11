@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+body{
+    margin: 10px;
+}
+nav {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    background-color:#E0A070;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+}
+nav ul li {
+    border: 3px solid black;
+    margin: 2px;
+
+}
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: arial, sans-serif;
+    transition: .3s;
+    color: black;
+    font-weight: bold;
+
+}
+a:hover {
+    background-color: white;
+    color: black;
+}
+div.container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+button{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+div.items {
+    padding:  10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    height: auto;
+    background-color: #3B8B94;
+    margin-right:10px ;
+}
+div.item {
+    font-family: arial, sans-serif;
+    background-color: #6FD4E0;
+    width: 224px;
+    padding: 10px;
+    margin: 5px;
+}
+img {
+    width: 180px;
+	height:auto;
+    margin: 10px;
+}
+div.placeForImage{
+	width:100%;
+}
+div.placeForName{
+	width:100%;
+    border-bottom: 3px solid black;
+    padding: 10px;
+    font-weight: bold;
+    margin: 2px;
+}
+.placeForPriceAndButton{
+	display:flex;
+	width:100%;
+    margin: 2px;
+}
+div.placeForButton{
+	width:50%;
+    margin: 0 auto;
+}
+.btnAdd{
+    padding:0.5rem 1rem;
+    margin:0.5rem;
+    background-color: #65E0A8;
+}
+div.placeForPrice{
+    background-color: white;
+	width:50%;
+    margin: auto 10px;
+    padding: 10px;
+}
+aside {
+    min-width: 190px;
+    display: block;
+    width: 20%;
+    height: auto;
+    background-color: #94582C;
+}
+h1{
+    margin: 10px;
+    color: white;
+    position: sticky;
+    top: 100px;
+}
+.basket {
+    width:100%;
+    padding: 10px;
+    position: sticky;
+    top: 140px;
+}
+.basket table {
+    color:white;
+    width:100%;
+    border-collapse: collapse;
+}
+.basket table tr td {
+    color:white;
+    text-align: left;
+    padding:2px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.basket table tr td:nth-child(2) {
+    text-align: right;
+}
+.btnClear, .btnSend{
+    width: 50%;
+    padding: 10px;
+}
+.btnRemove{
+    padding: 2px;
+    width: 100%;
+}
+footer {
+    text-align: center;
+    background-color: #E0B55A;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
