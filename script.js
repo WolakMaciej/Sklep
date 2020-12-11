@@ -140,7 +140,7 @@ function renderBasket() {
     basketTable = basketTable + '<table>';
 
     if (basket.length >= limitProducts) {
-        basketTable = basketTable + '<div style="margin-top:2rem;color:white;font-size:20px">Koszyl jest pełny</div>';
+        basketTable = basketTable + '<div style="margin-top:2rem;color:white;font-size:20px">Koszyk jest pełny</div>';
         $('.btnAdd').prop('disabled', true);
     } else {
         $('.btnAdd').prop('disabled', false);
